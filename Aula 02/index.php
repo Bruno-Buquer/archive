@@ -33,7 +33,7 @@ function criarButton ($array, $chave) {
 function criarSelect ($array, $chave) {
   echo "<select id=".$chave." name=".$array['nome'].">";
   foreach($array['opcoes'] as $chavita => $valozito) {
-    if($chavita == "MG") {
+    if($chavita == $array['valor_padrao']) {
       echo "<option value=".$chavita." selected>".$valozito."</option>";
     } else {
       echo "<option value=".$chavita.">".$valozito."</option>";
