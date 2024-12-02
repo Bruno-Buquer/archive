@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-  $dadosFuncionarios = array(
+  $dadosProdutos = array(
     array(
       'nome' => 'Detergente',
       'preço' => 2.90,
@@ -44,7 +44,7 @@
       $tela .= "</table>";
       return $tela;
     };
-    echo $montarTable($dadosFuncionarios);
+    echo $montarTable($dadosProdutos);
     
   ?>
 </body>
