@@ -29,7 +29,7 @@
         echo "<tr>";
         $j = 1;
         while($j <= $numColunas) {
-          echo "<td>Linha ".$i.", Coluna " . $j;
+          echo "<td>Linha ".$i.", Coluna " . $j . "</td>";
           $j++;
         }
         echo "</tr>";
